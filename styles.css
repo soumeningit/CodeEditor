@@ -1,0 +1,114 @@
+/* Add line numbers */
+/* .line-numbers {
+    counter-reset: line;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    color: #888;
+    font-size: 0.8em;
+    user-select: none;
+} */
+
+/* Style the textareas to occupy the remaining space */
+/* .code-editor textarea {
+    width: calc(100% - 30px); /* Adjust as necessary */
+    /* height: 100%;
+    resize: none;
+    border: 1px solid #FFAA80;
+    background-color: #FFF2D7; */
+/* } */ 
+
+/* Adjust layout for code editor */
+/* .code-editor {
+    position: relative;
+    display: flex;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add line numbers */
+/* .code-editor {
+    position: relative;
+} */
+
+/* .line-numbers {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    color: #888;
+    font-size: 0.8em;
+    user-select: none;
+} */
+
+/* .code-editor{
+    display:flex;
+    flex-direction:row;
+}
+
+.code-editor textarea {
+    margin-left: 50px; /* Adjust margin to accommodate line numbers */
+    /* width: calc(100% - 50px); /* Adjust width to accommodate line numbers */
+    /* height: 100%;
+    resize: none;
+    border: 1px solid #FFAA80;
+    background-color: #FFF2D7; */ 
+/* }  */
+
+
+/* Adjust layout for code editor */
+/* .one .code-editor,
+.two .code-editor,
+.three .code-editor {
+    position: relative;
+    display: flex;
+} */
+
+/* .one-text,
+.two-text,
+.three-text {
+    flex: 1;
+} */
+
+/* .temp{
+    display:flex;
+} */
+
+
+
+.editor {
+    position: relative;
+  }
+  
+  .line-numbers {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px; /* Adjust as needed */
+    padding: 4px 8px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+    font-family: monospace;
+  }
+  
+  textarea {
+    padding-left: 40px; /* Adjust according to the width of line numbers */
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+    resize: none;
+  }
+  

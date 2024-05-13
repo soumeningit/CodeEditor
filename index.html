@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCodeEditor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <p class="test">Hello World</p> -->
+
+    <div class="container">
+
+        <div class="left-Part">
+            <p class="text">Input</p>
+            <div class="content one">
+                <div class="lab">
+                    <i class="fa-solid fa-code html"></i>
+                    <label class="">Html</label>
+                </div>
+                <div class="new">
+                    <div class="line-numbers"></div>
+                    <textarea id="html-code" class="one-text " oninput="updateLineNumbers(this)"></textarea>
+                </div>
+
+            </div>
+
+            <div class="content three">
+                <div>
+                    <i class="fa-regular fa-file-code css"></i>
+                    <label class="">Css</label>
+                </div>
+                <div class="new">
+                    <div class="line-numbers"></div>
+                    <textarea id="css-code" class="two-text " rows="4" oninput="updateLineNumbers(this)"></textarea>
+                </div>
+                <!-- <textarea class="two-text"></textarea> -->
+            </div>
+            <div class="three content">
+                <div>
+                    <i class="fa-brands fa-js js"></i>
+                    <label class="">JavaScript</label>
+                </div>
+                <!-- <label class="js">JavaScript</label> -->
+                <div class="new">
+                    <div class="line-numbers"></div>
+                    <textarea id="js-code" class="two-text " oninput="updateLineNumbers(this)"></textarea>
+                </div>
+                <!-- <textarea class="three-text"></textarea> -->
+            </div>
+        </div>
+        <div class="right-Part">
+            <label class="text">Output</label>
+            <iframe id="output" class="output"></iframe>
+        </div>
+
+        <!-- <div>
+            <button id="toggle-theme">Toggle Theme</button>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
